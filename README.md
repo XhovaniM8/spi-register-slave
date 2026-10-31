@@ -4,6 +4,8 @@ A small SPI slave in Verilog-2005 that gives an SPI master read and write access
 to a bank of registers. It is written to be easy to read and to reuse: the SPI
 logic and the register map are separate modules, and everything runs on one clock.
 
+> This was an old project of mine (2021), I decided to just organize using Claude and push it for "historical" purposes. 
+
 ## Features
 
 - SPI mode 0, MSB first, 16-bit frames with 7-bit addresses and 8-bit data
